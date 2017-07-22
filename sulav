@@ -1,0 +1,51 @@
+
+
+name='sulav'
+
+print(name[0])
+
+print (name[0-5])
+
+number_list=[1,2,3]
+
+number_list_2d=[[1,2.3],[5,4,6]]
+
+mul_dim = number_list_2d
+
+mul_dim [0][1:3]
+
+mul_dim [1][0-2]
+
+values=['sulav','jhapa',['saurav','baneswor'],['babin','055']]
+
+len(values)
+
+values.append([1,2,3])
+
+values.extend(['a','b','c'])
+
+person={"name":"sulav","age":12}
+
+person["name"]
+
+student["add"]="Kathmandu"
+
+p_detail = {"sulav": ['jhapa', 'bachelor', 'football']}
+
+p_detail["sulav"]
+
+p_detail["saurav"]=['baneswor','bachelor','wrestling']
+
+std_dtls=[{"sname":"sulav","sadd":"jhapa"},{"sname":"saurav","sadd":"ktm"}]
+
+std_dtls=[1,{'sname':['sulav'],'sadd':['jhapa']}],[2,{'sname':['saurav'],'sadd':['ktm']}]
+
+print(std_dtls[1])
+
+
+
+
+
+
+
+
