@@ -43,6 +43,11 @@ std_dtls=[1,{'sname':['sulav'],'sadd':['jhapa']}],[2,{'sname':['saurav'],'sadd':
 print(std_dtls[1])
 
 
+# loop
+counter =0
+while counter<3:
+    print('loop#%d'%(counter))
+
 
 
 
