@@ -12,10 +12,9 @@
 # f.read()
 # f.close()
 
-f=open("new_file.txt",'a+')
-print(f)
-
-f.write("\nxxxxxxxxxxxxxxxxxxx")
+f=open("new_test.txt",'a+')
+print(f.tell())
+print(f.seek(4,0))
 f.read()
 f.close()
 
